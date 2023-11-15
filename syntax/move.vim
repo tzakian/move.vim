@@ -9,9 +9,9 @@ endif
 
 " Syntax definitions {{{1
 " Basic keywords {{{2
-syn keyword   moveConditional if else
+syn keyword   moveConditional if else match
 syn keyword   moveRepeat loop while
-syn keyword   moveStructure struct nextgroup=moveNonPrimitiveType skipwhite skipempty
+syn keyword   moveStructure struct enum nextgroup=moveNonPrimitiveType skipwhite skipempty
 syn keyword   moveOperator    as
 
 syn match     moveAssert      "\<assert\(\w\)*!" contained
